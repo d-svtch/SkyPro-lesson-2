@@ -1,4 +1,10 @@
-lst = [ 18, 14, 10, 6, 2 ]
+lst =[]
+length = 5
+value = 18
 
-for i in range(len(lst)):
-    print(lst[i])
+for i in range(length):
+    lst.append(i)
+    lst[i] = value
+    value -= 4
+
+print(lst)
